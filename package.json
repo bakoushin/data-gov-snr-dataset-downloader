@@ -1,0 +1,25 @@
+{
+  "name": "data-gov-snr-dataset-downloader",
+  "version": "1.0.0",
+  "description": "Downloads 7707329152-snr dataset and populates it into AWS DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "download": "node download.js"
+  },
+  "keywords": [],
+  "author": "Alex Bakoushin <alex@bakoush.in>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.373.0",
+    "camaro": "^3.0.14",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0",
+    "yauzl": "^2.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}

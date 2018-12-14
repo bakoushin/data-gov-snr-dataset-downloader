@@ -1,0 +1,16 @@
+# API usage:
+#
+# http://localhost:3000/api/v1/special_regimes/<INN>
+#
+# <INN>: 10-digit INN (Taxpayer Identifier)
+
+# Examples:
+
+### This one exists in database
+GET http://localhost:3000/api/v1/special_regimes/7703398099
+
+### This one exists in database
+GET http://localhost:3000/api/v1/special_regimes/5625021042
+
+### This one doesn't exist in database
+GET http://localhost:3000/api/v1/special_regimes/7707083893
