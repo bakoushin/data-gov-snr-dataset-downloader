@@ -13,13 +13,13 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.373.0",
-    "camaro": "^3.0.14",
-    "dotenv": "^6.2.0",
+    "camaro": "^6.2.1",
+    "dotenv": "^16.3.1",
     "express": "^4.16.4",
-    "node-fetch": "2.6.1",
+    "node-fetch": "^3.3.2",
     "yauzl": "^2.10.0"
   },
   "devDependencies": {
-    "nodemon": "2.0.6"
+    "nodemon": "^3.0.1"
   }
 }
